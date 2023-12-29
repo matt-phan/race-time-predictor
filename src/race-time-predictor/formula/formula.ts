@@ -1,5 +1,5 @@
 export const predictTime = (t1: number, d1: number, d2: number) =>
-  t1 * Math.pow(d2 / d1, 1.06);
+    t1 * Math.pow(d2 / d1, 1.06);
 
 /*
 400m
