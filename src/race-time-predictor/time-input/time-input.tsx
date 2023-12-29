@@ -12,23 +12,19 @@ export const TimeInput = ({ time, setTime }: TimeInputProps) => {
             <TextInput
                 style={styles.textInput}
                 value={time.hours.toString()}
-                onChangeText={(hours) => setTime({ ...time, hours: hours })}
+                onChangeText={(hours) => setTime({ ...time, hours })}
             />
             <Text>h</Text>
             <TextInput
                 style={styles.textInput}
                 value={time.minutes.toString()}
-                onChangeText={(minutes) =>
-                    setTime({ ...time, minutes: minutes })
-                }
+                onChangeText={(minutes) => setTime({ ...time, minutes })}
             />
             <Text>m</Text>
             <TextInput
                 style={styles.textInput}
                 value={time.seconds.toString()}
-                onChangeText={(seconds) =>
-                    setTime({ ...time, seconds: seconds })
-                }
+                onChangeText={(seconds) => setTime({ ...time, seconds })}
             />
             <Text>s</Text>
         </View>

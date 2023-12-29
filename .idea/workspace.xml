@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb9d521-9fbe-4018-8509-57625540bd35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/race-time-predictor/time-input/time-input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/race-time-predictor/title/title.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/formula.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/race-time-predictor/formula/formula.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/race-time-predictor-container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/race-time-predictor/race-time-predictor-container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/time-input.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/title.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/race-time-predictor/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/time-input/time-input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/race-time-predictor/time-input/time-input.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +57,7 @@
       <updated>1703676118125</updated>
       <workItem from="1703676119800" duration="202000" />
       <workItem from="1703716247715" duration="10702000" />
-      <workItem from="1703853210762" duration="5845000" />
+      <workItem from="1703853210762" duration="6023000" />
     </task>
     <servers />
   </component>
