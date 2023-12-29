@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb9d521-9fbe-4018-8509-57625540bd35" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/time-input/time-input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/race-time-predictor/time-input/time-input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/race-time-predictor-container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/race-time-predictor/race-time-predictor-container.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <updated>1703676118125</updated>
       <workItem from="1703676119800" duration="202000" />
       <workItem from="1703716247715" duration="10702000" />
-      <workItem from="1703853210762" duration="6023000" />
+      <workItem from="1703853210762" duration="6155000" />
     </task>
     <servers />
   </component>
