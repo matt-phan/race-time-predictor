@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb9d521-9fbe-4018-8509-57625540bd35" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/race-time-predictor/formula/predict-time.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/formula/formula.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/prediction/predicted-time.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/race-time-predictor/prediction/predicted-time.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +47,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/race-time-predictor/formula" />
+      <recent name="$PROJECT_DIR$/src/race-time-predictor/formula/__tests__" />
       <recent name="$PROJECT_DIR$/src/race-time-predictor/title" />
       <recent name="$PROJECT_DIR$/src/race-time-predictor/distance-picker" />
       <recent name="$PROJECT_DIR$/src/race-time-predictor/time-input" />
@@ -59,7 +65,7 @@
       <workItem from="1703716247715" duration="10702000" />
       <workItem from="1703853210762" duration="6737000" />
       <workItem from="1703930746162" duration="70000" />
-      <workItem from="1703931150912" duration="3992000" />
+      <workItem from="1703931150912" duration="12515000" />
     </task>
     <servers />
   </component>
