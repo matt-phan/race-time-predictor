@@ -4,8 +4,13 @@ import { Title } from './title';
 import { TimeInput } from './time-input';
 import { Distance, Time } from './types';
 import { DistancePicker } from './distance-picker';
+import { CalculateButton } from './calculate-button';
+import { PredictedTime } from './prediction';
+
 export const RaceTimePredictorContainer = () => {
     const [selectedDistance, setSelectedDistance] =
+        useState<Pick<Distance, 'metres'>>();
+    const [predictedDistance, setPredictedDistance] =
         useState<Pick<Distance, 'metres'>>();
 
     const [time, setTime] = useState<Time>({
@@ -25,6 +30,13 @@ export const RaceTimePredictorContainer = () => {
                 selectedDistance={selectedDistance}
                 setSelectedDistance={setSelectedDistance}
             />
+            <Title>Your race prediction</Title>
+            <DistancePicker
+                selectedDistance={predictedDistance}
+                setSelectedDistance={setPredictedDistance}
+            />
+            <CalculateButton onClick={() => {}} />
+            <PredictedTime />
         </View>
     );
 };
@@ -36,7 +48,8 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         justifyContent: 'flex-start',
         alignItems: 'center',
-        marginVertical: 35,
+        marginTop: 35,
+        marginBottom: 20,
         marginHorizontal: 20,
         borderWidth: 1,
         borderColor: 'black',
