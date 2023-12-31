@@ -1,26 +1,33 @@
-import { StyleSheet, Text, View, TextInput } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { useState } from 'react';
 import { Title } from './title';
 import { TimeInput } from './time-input';
-import { Distance, Time } from './types';
+import { Time } from './types';
 import { DistancePicker } from './distance-picker';
 import { CalculateButton } from './calculate-button';
 import { PredictedTime } from './prediction';
+import {predictTime} from "./formula";
 
 export const RaceTimePredictorContainer = () => {
     const [selectedDistance, setSelectedDistance] =
-        useState<Pick<Distance, 'metres'>>();
+        useState<number>();
     const [predictedDistance, setPredictedDistance] =
-        useState<Pick<Distance, 'metres'>>();
+        useState<number>();
 
     const [time, setTime] = useState<Time>({
         hours: '0',
         minutes: '0',
         seconds: '0',
     });
+    const [predictedTime, setPredictedTime] = useState<Time>(
+        {
+            hours: '0',
+            minutes: '0',
+            seconds: '0',
+        }
+    );
 
-    console.log(selectedDistance);
-    console.log(typeof selectedDistance);
+    const predict = () => setPredictedTime(predictTime({t1: time, d1: selectedDistance, d2: predictedDistance}));
 
     return (
         <View style={styles.container}>
@@ -35,8 +42,8 @@ export const RaceTimePredictorContainer = () => {
                 selectedDistance={predictedDistance}
                 setSelectedDistance={setPredictedDistance}
             />
-            <CalculateButton onClick={() => {}} />
-            <PredictedTime />
+            <CalculateButton onPress={predict} />
+            <PredictedTime time={predictedTime} />
         </View>
     );
 };

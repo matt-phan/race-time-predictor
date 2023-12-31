@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb9d521-9fbe-4018-8509-57625540bd35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/race-time-predictor/formula/predict-time.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/formula/formula.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/calculate-button/calculate-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/race-time-predictor/calculate-button/calculate-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/distance-picker/distance-picker.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/race-time-predictor/distance-picker/distance-picker.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/formula/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/race-time-predictor/formula/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/formula/predict-time.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/race-time-predictor/formula/predict-time.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/race-time-predictor/prediction/predicted-time.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/race-time-predictor/prediction/predicted-time.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/race-time-predictor/race-time-predictor-container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/race-time-predictor/race-time-predictor-container.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <workItem from="1703716247715" duration="10702000" />
       <workItem from="1703853210762" duration="6737000" />
       <workItem from="1703930746162" duration="70000" />
-      <workItem from="1703931150912" duration="12515000" />
+      <workItem from="1703931150912" duration="14683000" />
     </task>
     <servers />
   </component>

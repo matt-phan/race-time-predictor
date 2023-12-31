@@ -1,11 +1,11 @@
 import { Button, StyleSheet } from 'react-native';
 
 interface CalculateButtonProps {
-    onClick: () => void;
+    onPress: () => void;
 }
 
-export const CalculateButton = ({ onClick }: CalculateButtonProps) => {
-    return <Button style={styles.button} title="predict" onClick={onClick} />;
+export const CalculateButton = ({ onPress }: CalculateButtonProps) => {
+    return <Button style={styles.button} title="predict" onPress={onPress} />;
 };
 
 const styles = StyleSheet.create({

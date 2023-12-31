@@ -4,13 +4,13 @@ import { Picker } from '@react-native-picker/picker';
 import { distances } from './distances';
 
 interface DistancePickerProps {
-    selectedDistance: Pick<Distance, 'metres'>;
+    selectedDistance: number;
     setSelectedDistance: (
         value:
             | ((
-                  prevState: Pick<Distance, 'metres'>
-              ) => Pick<Distance, 'metres'>)
-            | Pick<Distance, 'metres'>
+                  prevState: number
+              ) => number)
+            | number
     ) => void;
 }
 

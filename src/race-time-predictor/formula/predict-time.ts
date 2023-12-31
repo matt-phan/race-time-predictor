@@ -20,29 +20,3 @@ export const predictTime = (params: predictTimeParams): Time => {
         secondsToTime
     )(params);
 };
-
-/*
-400m
-1/2 mile
-1k
-1 mile
-2 mile
-5k
-10k
-15k
-10 mile
-20k
-half marathon
-30k
-marathon
-*/
-
-/*
-Inputs are:
-1 - Best effort distance (number)
-2 - Best effort time (Time)
-3 - Prediction distance
-
-Output is:
-1 - Predicted time (Time)
- */
