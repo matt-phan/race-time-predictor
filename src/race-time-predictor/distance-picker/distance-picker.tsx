@@ -6,11 +6,7 @@ import { distances } from './distances';
 interface DistancePickerProps {
     selectedDistance: number;
     setSelectedDistance: (
-        value:
-            | ((
-                  prevState: number
-              ) => number)
-            | number
+        value: ((prevState: number) => number) | number
     ) => void;
 }
 

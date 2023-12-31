@@ -3,13 +3,15 @@ import { PredictionContainer } from './prediction-container';
 import { Title } from '../title';
 import { TimeInputContainer } from '../time-input/time-input-container';
 import { TimeOutput } from './time-output';
-import {Time} from "../types";
+import { Time } from '../types';
 
 interface PredictedTimeProps {
     time: Time;
 }
 
-export const PredictedTime = ({ time: { hours, minutes, seconds } }: PredictedTimeProps) => {
+export const PredictedTime = ({
+    time: { hours, minutes, seconds },
+}: PredictedTimeProps) => {
     return (
         <PredictionContainer>
             <Title>Your predicted time 👉</Title>
